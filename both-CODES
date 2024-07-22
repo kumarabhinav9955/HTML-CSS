@@ -1,0 +1,269 @@
+----------------HTML CODES---------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Kumar Abhinav portfolio website</title>
+    <style>
+        @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query for screens smaller than 480px wide */
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
+    </style>
+</head>
+<body>
+    <header>
+     <section id="navbar">
+        <nav id="nav-header">
+
+            <div class="logo">Kumar Abhinav</div>
+            <div>
+                <ul class="nav-list">
+                    <li><a href="#Welcome">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Project-made-by-me">Project</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Contact">Contact</a> </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </section>
+</header>
+
+<!-- this is welcome messgae  --> 
+ <section id="Welcome">
+<div class="image-container">
+    <img src="image/img1.jfif" 
+    width="200" 
+    height="200" 
+    alt="" >
+</div>
+<div class="paragrapgh-container">
+    <h2>Welcome</h2>
+    <p>Hey there! I’m Abhinav, a passionate web developer and designer. Whether you stumbled upon my site intentionally or by happy accident, I’m thrilled you’re here!
+
+        Take a virtual stroll through my projects, soak in the pixels, and let’s embark on a digital adventure together. From elegant code snippets to pixel-perfect designs, I’ve poured my heart into every line of HTML, CSS, and JavaScript you’ll find here.
+        
+        Feel free to reach out—I’d love to chat about tech, creativity, or the latest cat memes. 🐱
+        
+        Thanks for stopping by, and remember: The best websites are yet to be coded! 🚀.</p>
+</div>
+</section> 
+<hr width="100%" size="5">
+<section id="About">
+ <!-- logo3 About section -->
+<div class="about-container">
+<h2>About</h2>
+<p>My self Kumar Abhinav,I am form Dehri-On-Sone,Bihar-821307.I have completed my B-tech from Institute Of Technical Education & Research,Bhubneshwer-751030.
+</p>
+</div>
+  </section>
+  <section id="Skills">
+    <div class="Skills-container">
+        
+        <p class="skills-text">Languages:</p>
+        <div class="Skills-container1">
+            <p>JAVA</p>
+            <p>SQL</p>
+            <p>HTML</p>
+            <p>CSS</p>
+        </div>
+    </div>
+  </section>
+<hr width="100%" size="5">
+    <!-- logo4 Project section -->
+<section id ="Project-made-by-me">
+ <div class="Project">
+    <h2>Project</h2>
+ <strong>1.Weather Website</strong>
+ <br>
+ <p>I have created a Weather update site using html and CSS. I have used Rapid Api service to track the weather.</p> 
+ <br>
+ <strong>2.Raspberry Pi Pico W Fingerprint Door Lock</strong>
+ <br>
+ <p>In the ever-evolving world of technology, the Raspberry Pi Pico, a microcontroller board developed by the Raspberry Pi Foundation, has gained significant
+  popularity for its versatility and affordability. This compact yet powerful board opens up a myriad of possibilities for hobbyists, students, and professionals alike. In this exploration, we will delve 
+  into the integration of the Raspberry Pi Pico, specifically the Wi-Fi variant (Pico W), with the R307s Biometric Fingerprint module and an electronic door lock system.</p>
+  <br>
+  <strong>3.KeyLogger-Capturing-key-stokes
+  </strong>
+<br>
+<p>This Python program implements a keylogger, which is a type of software that records the keystrokes made by a user on their computer. It utilizes the pynput library to monitor and capture key events.</p>
+</section>
+<hr width="100%" size="5">
+ <!--This part is Resume part  -->
+ <section id="Resume">
+
+ <div class="My-resume">
+ <h2>Resume</h2>
+
+ <a download href="https://drive.google.com/file/d/1gWoiY7l9sP5ISFEPU9isEEhPjvmaLopq/view " class="social-link" alt="Resume" >Click Here To Download Reseume</a>
+</div>
+</section>
+<hr width="100%" size="5">
+<!-- THis part is footer part Contact part -->
+
+<footer id="Contact">
+    <div class="My-contact">
+        <h2>Contact</h2>
+    <a href="https://www.linkedin.com/in/kumar-abhinav-a32815179/" target="_blank" class="social-link">
+        <img src="image/link1.webp" alt="LinkedIn" style="width:60px;height:60px;">
+    </a>
+
+    <a href="https://github.com/kumarabhinav9955" target="_blank" class="social-link">
+        <img src="image/git1.png" alt="GitHub" style="width:60px;height:60px;">
+    </a>
+    <a href="mailto:kumarabhinavwork002@gmail.com" targer="_blank"><img src="image/gmail.png" alt="Gmail" style="width:60px;height: 60px;"></a>
+    <div class="address">
+    <address>Sambika Path,Dehri-On-Sone,Bihar-821307.</address>
+</div>
+    </div>
+</footer>
+<hr width="100%" size="5">
+</body>
+
+</html>
+
+-------------------------------------------------CSS CODE --------------------------------------
+
+/* Have to add media type 767 */
+*{
+  margin: 0;
+  padding: 0;
+  
+} 
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height:1.5;
+  background-color: #a6b0eb59;
+  overflow-x: hidden;
+
+header{
+  background-color: #26224459;
+  color: #aa5e5e;
+  padding: 10px 20px;
+}
+
+#nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+ font-size: 2rem;
+ font-weight: bold;
+ color: black;
+
+}
+.nav-list{
+  list-style-type: none;
+
+}
+.nav-list li {
+  display:inline;
+  margin-right:10px;
+
+}
+.nav-list li a {
+  color: #ecece4;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.nav-list li a:hover {
+  background-color: #555;
+}
+#Welcome{
+
+  padding: 20px;
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-direction: column;
+
+
+
+}
+h2{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.imge-container{
+  align-items: left;
+  margin: 20px 10px;
+
+}
+#About{
+  align-items:center;
+  margin-bottom: 20px;;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+.about-container{
+  width:auto;
+  flex-direction: column;
+  display: flex;
+
+}
+#Skills{
+  align-items: center;
+  padding:10px;
+  margin-top: 10px;
+
+}
+.Skills-container{
+        
+        flex-direction: column;
+        justify-content: space-around;
+        display: flex;
+}
+.Skills-container1{
+  display:flex;
+  justify-content: space-between;
+}
+#Project-made-by-me{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  padding:20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.Project{
+  width:auto;
+  align-items:left;
+}
+#Resume{
+  padding: 20px;
+  margin-top: 20px;
+
+}
+.My-resume{
+  width:auto;
+  text-align: center;
+}
+#Contact{
+  width:auto;
+  text-align:center
+
+}
+
+}

@@ -1,0 +1,164 @@
+-----------------HTML----------------
+
+For best understanding use vs code 
+
+First make a html file name it index.html
+
+now press 
+shift + ! --- then enter 
+
+Now you will given see some code code  like this
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- page title part-->
+</head>
+<body>
+    <!-- here we have to write all the body part code we will let you know all the things-->
+
+</body>
+</html>
+
+!!!!!!!!!!!!!!!!!!!! now some important questions !!!!!!!!!!!!!!!!!!!!!!!!
+
+1). What is head ?
+Ans. The <head> element in HTML is a container for metadata, which is data about the document itself. This element goes between the <html> tag and the <body> tag.
+2). What is body ?
+Ans. it is just like prototype of the page where we write about what we want in our page.
+it includes many things liks <header>,<section id="">,<nav id=""> etc.
+
+Now let us make an project using html by making this project you will learn more about html.
+
+---------Personal website ----------------------------------------
+
+write html boiler plate 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- page title part-->
+</head>
+<body>
+  <header> <!-- this is done to make head part we are going to make head part that stores name home etc-->
+    <section id="navbar"> <!-- We have make a section called navbar (you will under after some time )-->
+      <nav id ="nav-header">
+          <div class= "logo"> Kumar Abhinav </div>
+              <ul class ="nav-list">
+                 <li><a href="#Welcome">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Project-made-by-me">Project</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Contact">Contact</a> </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </section>
+</header>
+  
+<!-- Now we are going to make another section name welcome that store the about part and image also -->
+<section id="Welcome">
+  <div class="image-container>
+    <img src="image/img1.jfif" 
+    width="200" 
+    height="200" 
+    alt="" > <!-- You have to make an folder under main folder so that you relocated easily -->
+</div>
+<div class="paragraph-container"> <!-- we have made a another class that contain the container of paragraph-->
+<h2>Welcome</h2>
+    <p>Hey there! I’m Abhinav, a passionate web developer and designer. Whether you stumbled upon my site intentionally or by happy accident, I’m thrilled you’re here!
+
+        Take a virtual stroll through my projects, soak in the pixels, and let’s embark on a digital adventure together. From elegant code snippets to pixel-perfect designs, I’ve poured my heart into every line of HTML, CSS, and JavaScript you’ll find here.
+        
+        Feel free to reach out—I’d love to chat about tech, creativity, or the latest cat memes. 🐱
+        
+        Thanks for stopping by, and remember: The best websites are yet to be coded! 🚀.</p>
+</div>
+</section>
+<!-- Now we have to make about section -->
+<hr width="100%" size="5"> <!-- this is used because to make an line you can use css for further process also -->
+<section id="About"> 
+ <!-- logo3 About section -->
+<div class="about-container">
+<h2>About</h2>
+<p>My self Kumar Abhinav,I am form Dehri-On-Sone,Bihar-821307.I have completed my B-tech from Institute Of Technical Education & Research,Bhubneshwer-751030.
+</p>
+</div>
+  </section>
+  <section id="Skills">
+    <div class="Skills-container">
+        <p class="skills-text">Languages:</p>
+        <div class="Skills-container1">
+            <p>JAVA</p>
+            <p>SQL</p>
+            <p>HTML</p>
+            <p>CSS</p>
+        </div>
+    </div>
+  </section>
+
+<hr width="100%" size="5">
+    <!-- logo4 Project section -->
+<section id ="Project-made-by-me">
+ <div class="Project">
+    <h2>Project</h2>
+ <strong>1.Weather Website</strong>
+ <br>
+ <p>I have created a Weather update site using html and CSS. I have used Rapid Api service to track the weather.</p> 
+ <br>
+ <strong>2.Raspberry Pi Pico W Fingerprint Door Lock</strong>
+ <br>
+ <p>In the ever-evolving world of technology, the Raspberry Pi Pico, a microcontroller board developed by the Raspberry Pi Foundation, has gained significant
+  popularity for its versatility and affordability. This compact yet powerful board opens up a myriad of possibilities for hobbyists, students, and professionals alike. In this exploration, we will delve 
+  into the integration of the Raspberry Pi Pico, specifically the Wi-Fi variant (Pico W), with the R307s Biometric Fingerprint module and an electronic door lock system.</p>
+  <br>
+  <strong>3.KeyLogger-Capturing-key-stokes
+  </strong>
+<br>
+<p>This Python program implements a keylogger, which is a type of software that records the keystrokes made by a user on their computer. It utilizes the pynput library to monitor and capture key events.</p>
+</section>
+
+<hr width="100%" size="5">
+ <!--This part is Resume part  -->
+ <section id="Resume">
+
+ <div class="My-resume">
+ <h2>Resume</h2>
+
+ <a download href="https://drive.google.com/file/d/1gWoiY7l9sP5ISFEPU9isEEhPjvmaLopq/view " class="social-link" alt="Resume" >Click Here To Download Reseume</a>
+</div>
+</section>
+<hr width="100%" size="5">
+<!-- THis part is footer part Contact part -->
+
+<footer id="Contact">
+    <div class="My-contact">
+        <h2>Contact</h2>
+    <a href="https://www.linkedin.com/in/kumar-abhinav-a32815179/" target="_blank" class="social-link">
+        <img src="image/link1.webp" alt="LinkedIn" style="width:60px;height:60px;">
+    </a>
+
+    <a href="https://github.com/kumarabhinav9955" target="_blank" class="social-link">
+        <img src="image/git1.png" alt="GitHub" style="width:60px;height:60px;">
+    </a>
+    <a href="mailto:kumarabhinavwork002@gmail.com" targer="_blank"><img src="image/gmail.png" alt="Gmail" style="width:60px;height: 60px;"></a>
+    <div class="address">
+    <address>Sambika Path,Dehri-On-Sone,Bihar-821307.</address>
+</div>
+    </div>
+</footer>
+<hr width="100%" size="5">
+</body>
+
+</html>
+
+
+Hope you have understand what i have done soo far....
+
+
+

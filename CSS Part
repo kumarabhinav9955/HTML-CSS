@@ -1,0 +1,151 @@
+
+/* Have to add media type 767 */
+*{
+  margin: 0;
+  padding: 0;
+  
+} /* This is done because "The CSS code snippet you provided is a CSS reset. It’s used to normalize default styles across different browsers. By setting margins and padding to zero, it ensures a consistent starting point for styling elements. This practice helps avoid unexpected variations in rendering due to browser-specific defaults. " */
+
+/* Now we have to give css to all the parts that we have written on the html part  */
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height:1.5;
+  background-color: #a6b0eb59;
+  overflow-x: hidden;
+/* We have written heder part css here we have used padding color background colour 
+Now you have quetion that what is padding? answer is simple 
+ans. Padding in CSS refers to the space between an element’s content and its defined border. Essentially, it adds extra space inside the element, 
+affecting its dimensions and appearance*/
+header{
+  background-color: #26224459;
+  color: #aa5e5e;
+  padding: 10px 20px;
+}
+/* now we have done with header part now 
+do you remember that we have created many sections now we have to use that section
+to decorated diffrent part of the page */
+#nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} /* probably you are thinking what is display-flex what is justify content - space around,align-items
+ basicaly display is used to display what we have done in codding part 
+justify-content is used to justify where our content will be shown what we have write in html part 
+and align-items is used to align the item that are given in html part */
+
+/* Now we have to edit logo part show we wright logo part like this (you can change what every you wanted to change). */
+.logo{
+ font-size: 2rem;
+ font-weight: bold;
+ color: black;
+
+}
+/* Now you are thinking that why we have used .nav-list list-style-type: none. Just remove this part and see you can see some numbers or dot have appered.to remove that we have used  */
+.nav-list{
+  list-style-type: none;
+
+}
+/* Now you mus thinking that what is display-inline ?
+ans. it means we have given command to display the values in same line */
+.nav-list li {
+  display:inline;
+  margin-right:10px;
+
+}
+.nav-list li a {
+  color: #ecece4;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+/*Now you must thinking what is this now just leave this topic and come after the 
+site page made 
+ans bacically it will add hover to the elements that are present in list part*/
+.nav-list li a:hover {
+  background-color: #555;
+}
+/*Now Welcome to the next part whose name is welcome same as we have used welcome as a section id so we can welcome part and we can doo edits */
+#Welcome{
+
+  padding: 20px;
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex; /* Now you can see we have again used flex you can ask a question that why we have used flex why not other way because?
+ Flexbox is a powerful layout model in CSS that allows you to create flexible and responsive designs*/
+  justify-content: space-around; 
+  align-content: flex-start; 
+  flex-direction: column; /* you can ask that why we have used flex-direction?
+we have used because we want to flex the welcome part in coloumn wise,you can change the direction as you want.*/
+}
+h2{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.imge-container{
+  align-items: left;
+  margin: 20px 10px;
+
+}
+#About{
+  align-items:center;
+  margin-bottom: 20px;;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+.about-container{
+  width:auto;
+  flex-direction: column;
+  display: flex;
+
+}
+#Skills{
+  align-items: center;
+  padding:10px;
+  margin-top: 10px;
+
+}
+.Skills-container{
+        
+        flex-direction: column;
+        justify-content: space-around;
+        display: flex;
+}
+.Skills-container1{
+  display:flex;
+  justify-content: space-between;
+}
+#Project-made-by-me{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  padding:20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.Project{
+  width:auto;
+  align-items:left;
+}
+#Resume{
+  padding: 20px;
+  margin-top: 20px;
+
+}
+.My-resume{
+  width:auto;
+  text-align: center;
+}
+#Contact{
+  width:auto;
+  text-align:center
+
+}
+
+}
+
+Hope so i have explained all the key words i have used for making this project as this project is under construction for better used experience
+so code may change in future and i will we updating all what i have changed or not.
